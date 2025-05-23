@@ -1,0 +1,62 @@
+# 编译输出
+/bin/
+/build/
+/target/
+
+# 临时文件
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# IDE 相关（例如 IntelliJ IDEA 和 Eclipse）
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# Maven
+.mvn/
+!**/src/main/**/.gitkeep
+!**/src/test/**/.gitkeep
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+
+# 包含敏感信息的配置文件（如含密钥的文件）
+*.key
+*.jks
+*.pem
+*.p12
+*.crt
+
+# OS 生成的文件
+.DS_Store
+Thumbs.db
+
+# 测试报告等不需版本控制的文件
+/test-output/
+*.class
+*.jar
+*.war
+*.ear
+
+# 覆盖率报告
+jacoco.exec
+/coverage/
+*.ec
+
+# Checkstyle / PMD / SpotBugs
+/checkstyle-result.xml
+/pmd.xml
+/findbugs.xml
+/spotbugs.xml
+
+# VS Code
+.vscode/
