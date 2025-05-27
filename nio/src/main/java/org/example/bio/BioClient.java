@@ -41,4 +41,10 @@ public class BioClient {
         }
         socket.close();
     }
+
+    public static class User {
+        public String name;
+        public Integer age;
+        public String friend;
+    }
 }
